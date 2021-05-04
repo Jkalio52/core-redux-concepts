@@ -7,4 +7,4 @@ const initialState = {
    destination: 'Mars'
 };
 
-const arrivalReducer = (state = initialState, action) => {};
+const arrivalReducer = (state = initialState, action) => {}
