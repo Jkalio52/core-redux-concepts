@@ -8,6 +8,15 @@ const initialState = {
 };
 
 const arrivalReducer = (state = initialState, action) => {
-   // code here
+   switch (action.type) {
+      case 'setToLate': {
+        return {
+          ...state, 
+          isLate: true
+        };
+      }
+      default:
+        return state;
+   }
 };
 
