@@ -20,3 +20,6 @@ const arrivalReducer = (state = initialState, action) => {
    }
 };
 
+
+// Fill in the reducer function so that it updates state immutably. The addTodo action should add the action.payload value to the state array.
+
