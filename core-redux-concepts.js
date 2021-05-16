@@ -35,3 +35,11 @@ const todoReducer = (state = [], action) => {
 
 // Define a valid action so that newState equals 3
 
+const reducer = (state = 0, action) => {
+  switch (action.type) {
+    case 'incrementByAmount':
+      return state + action.payload;
+    default:
+      return state;
+  }
+}
