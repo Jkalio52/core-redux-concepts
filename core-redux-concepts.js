@@ -31,3 +31,7 @@ const todoReducer = (state = [], action) => {
       return state;
   }
 }
+
+
+// Define a valid action so that newState equals 3
+
