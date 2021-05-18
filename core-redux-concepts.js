@@ -43,3 +43,8 @@ const reducer = (state = 0, action) => {
       return state;
   }
 }
+
+const action = {
+  type: 'incrementByAmount',
+  payload: 2 
+};
