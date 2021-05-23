@@ -51,3 +51,4 @@ const action = {
 
 
 // newState should be 3
+const newState = reducer(1, action);
