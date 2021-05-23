@@ -48,3 +48,6 @@ const action = {
   type: 'incrementByAmount',
   payload: 2 
 };
+
+
+// newState should be 3
