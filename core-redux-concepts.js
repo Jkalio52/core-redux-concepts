@@ -52,3 +52,6 @@ const action = {
 
 // newState should be 3
 const newState = reducer(1, action);
+
+// Define a valid action so that newState equals ['gotta', 'go', 'fast']
+
