@@ -54,4 +54,11 @@ const action = {
 const newState = reducer(1, action);
 
 // Define a valid action so that newState equals ['gotta', 'go', 'fast']
-
+const reducer = (state = [], action) => {
+  switch (action.type) {
+    case 'addPhrase':
+      return [...state, action.payload];
+    default:
+      return state;
+  }
+}
