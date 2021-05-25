@@ -62,3 +62,8 @@ const reducer = (state = [], action) => {
       return state;
   }
 }
+
+const action = {
+  type: 'addPhrase',
+  payload: 'fast' 
+};
