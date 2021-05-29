@@ -67,3 +67,6 @@ const action = {
   type: 'addPhrase',
   payload: 'fast' 
 };
+
+// newState should be ['gotta', 'go', 'fast']
+
