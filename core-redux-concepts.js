@@ -69,4 +69,4 @@ const action = {
 };
 
 // newState should be ['gotta', 'go', 'fast']
-
+const newState = reducer(['gotta', 'go'], action);
